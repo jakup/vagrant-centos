@@ -4,14 +4,14 @@ Basic vagrant configuration for a CentOS VM.
 
 # Requirements
 
-- [https://www.vagrantup.com/](Vagrant by HashiCorp)
+- [Vagrant by HashiCorp](https://www.vagrantup.com)
 
 # Getting Started
 
 Read the Vagrant documentation.
 
-- [https://www.vagrantup.com/intro/index.html](Intro)
-- [https://www.vagrantup.com/docs/index.html](Docs)
+- [Intro](https://www.vagrantup.com/intro/index.html)
+- [Docs](https://www.vagrantup.com/docs/index.html)
 
 Clone the git repo
 
