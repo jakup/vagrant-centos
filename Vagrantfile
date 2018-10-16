@@ -26,7 +26,11 @@ Vagrant.configure("2") do |config|
         > /etc/yum.conf
   SHELL
 
-  Dir["vagrant.d-enabled/*.sh"].sort().each do |f|
+  Dir["vagrant.d/root-enabled/*.sh"].sort().each do |f|
     config.vm.provision :shell, path: f
+  end
+
+  Dir["vagrant.d/user-enabled/*.sh"].sort().each do |f|
+    config.vm.provision :shell, path: f, privileged: false
   end
 end

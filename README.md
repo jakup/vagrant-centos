@@ -25,6 +25,8 @@ Run vagrant up
 
 # Modular file based provisioning scripts
 
-Vagrant supports many types of provisioners.  This project uses a simple file based approach.  Any files in `vagrant.d-enabled` with a filename matching `*.sh` will be executed after the VM starts up.
+Vagrant supports many types of provisioners.  This project uses a simple file based approach.
+- Any files in `vagrant.d/root-enabled` with a filename matching `*.sh` will be executed after the VM starts up as a privileged user.  
+- Any files in `vagrant.d/user-enabled` with a filename matching `*.sh` will be executed after the VM starts up as the `vagrant` user.
 
-I have placed scripts for several applications that I commonly use in `vagrant.d-available` and most scripts that I most always have enabled are already symlinked in `vagrant.d-enabled`.
+I have placed scripts for several applications that I commonly use in `vagrant.d/root-available` and most scripts that I most always have enabled are already symlinked in `vagrant.d/root-enabled`.
