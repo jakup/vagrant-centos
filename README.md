@@ -5,6 +5,7 @@ Basic vagrant configuration for a CentOS VM.
 # Requirements
 
 - [Vagrant by HashiCorp](https://www.vagrantup.com)
+- [VirtualBox by Oracle](https://www.virtualbox.org)
 
 # Getting Started
 
