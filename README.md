@@ -20,6 +20,7 @@ Clone the git repo
 
 Run vagrant up
 
+    cd vagrant-centos
     vagrant up
 
 # Modular file based provisioning scripts
