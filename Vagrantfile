@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
   # enable yum cache so we don't have to download the same packages again and again when reprovisioning the vm
   FileUtils.mkdir_p ".cache/yum"
   config.vm.synced_folder ".cache/yum", "/var/cache/yum"
-  config.vm.provision :shell, inline: <<-SHELL
+  config.vm.provision :shell, inline: <<-'SHELL'
     cp /etc/yum.conf /etc/yum.conf.orig
     cat /etc/yum.conf.orig \
         | grep -Ev '^keepcache=' \
