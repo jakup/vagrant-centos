@@ -1,1 +1,1 @@
-../vagrant.d-available/01_update.sh
+../root-available/01_update.sh

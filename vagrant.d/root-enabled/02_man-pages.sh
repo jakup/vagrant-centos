@@ -1,1 +1,1 @@
-../vagrant.d-available/02_man-pages.sh
+../root-available/02_man-pages.sh

@@ -1,1 +1,1 @@
-../vagrant.d-available/00_epel.sh
+../root-available/00_epel.sh

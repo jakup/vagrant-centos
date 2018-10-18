@@ -1,1 +1,1 @@
-../vagrant.d-available/99_fortune.sh
+../root-available/99_fortune.sh
